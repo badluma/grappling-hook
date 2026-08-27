@@ -1,0 +1,18 @@
+[package]
+name = "grappling-hook"
+version = "0.1.0"
+edition = "2024"
+description = "Terminal client for downloading Movies and TV shows from The Pirate Bay."
+license = "MIT"
+readme = "README.md"
+keywords = ["torrent", "cli", "tui", "anime", "search"]
+categories = ["command-line-utilities"]
+exclude = ["assets/", "notes/", ".DS_Store"]
+
+[dependencies]
+rbay = "0.1.0"
+torrent = "0.1.10"
+tokio = { version = "1.53.1", features = ["macros", "rt-multi-thread", "time"] }
+terminal_size = "0.4.4"
+inquire = "0.9.4"
+open = "5.4.2"

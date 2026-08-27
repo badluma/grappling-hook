@@ -1,0 +1,6 @@
+command to fix colors:
+
+magick assets/demo.gif -coalesce -alpha off -fuzz 4% \
+  -fill '#010409' -opaque black \
+  -fill '#F8F8F8' -opaque white \
+  -layers optimize-frame assets/demo-fixed.gif && mv assets/demo-fixed.gif assets/demo.gif
