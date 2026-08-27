@@ -5,7 +5,7 @@ edition = "2024"
 description = "Terminal client for downloading Movies and TV shows from The Pirate Bay."
 license = "MIT"
 readme = "README.md"
-keywords = ["torrent", "cli", "tui", "anime", "search"]
+keywords = ["torrent", "cli", "tui", "search", "movies", "tv"]
 categories = ["command-line-utilities"]
 exclude = ["assets/", "notes/", ".DS_Store"]
 
