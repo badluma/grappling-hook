@@ -2,7 +2,7 @@
 
 Grappling Hook is a terminal client that lets you search movies and shows from The Pirate Bay and download them using your default BitTorrent client.
 
-![](./assets/demo.gif)
+![](https://raw.githubusercontent.com/badluma/grappling-hook/main/assets/demo.gif)
 
 ## Features
 
