@@ -1,4 +1,3 @@
-mod aniworld;
 mod functions;
 
 use functions::*;
