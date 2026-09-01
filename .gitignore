@@ -1,5 +1,12 @@
 # Build artifacts
-/target
+target/
+.venv/
+__pycache__/
+*.egg-info/
+/dist
+
+# Python specific
+uv.lock
 
 # AI stuff
 .claude/
@@ -10,4 +17,6 @@ AGENTS.md
 .zed/
 .idea/
 .vscode/
+
+# Others
 .DS_Store

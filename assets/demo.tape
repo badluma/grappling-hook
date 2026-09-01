@@ -7,7 +7,7 @@ Set Height 775
 
 Env PS1 "> "
 
-Type "cargo run -q"
+Type "hook"
 Enter
 Sleep 3s
 Enter
