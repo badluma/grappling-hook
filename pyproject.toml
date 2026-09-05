@@ -1,14 +1,16 @@
 [project]
 name = "grappling-hook"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Terminal client for downloading Movies and TV shows from The Pirate Bay."
 readme = "README.md"
 license = "MIT"
-requires-python = ">=3.11"
+requires-python = ">=3.11,<3.14"
 keywords = ["torrent", "cli", "tui", "search", "movies", "tv"]
 classifiers = ["Environment :: Console"]
 dependencies = [
+    "appdirs>=1.4.4",
     "inquirer>=3.4.0",
+    "libtorrent>=2.1.1",
     "thepiratebay-api>=0.1.0",
 ]
 
@@ -21,3 +23,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/grappling_hook"]
+
+[tool.hatch.version]
+path = "src/grappling_hook/__init__.py"

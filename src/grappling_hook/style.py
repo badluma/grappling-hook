@@ -5,8 +5,6 @@ from inquirer.themes import Theme, term
 
 
 class Label(Theme):
-    """All-white theme: prompt, options, answers, checkboxes."""
-
     def __init__(self):
         super().__init__()
         self.Question.mark_color = term.white
